@@ -26,6 +26,8 @@ public class DiceRoll {
 			// Prompt the user to enter a number between 1 and 6
 			System.out.println("Welcome to Dice Roll!");
 			
+//			Set validchoice to false to ensure the user is asked for their guess
+//			validChoice = false;
 			do {
 				System.out.print("Please guess a number between 1 and 6: ");
 				guess = scanner.nextInt();

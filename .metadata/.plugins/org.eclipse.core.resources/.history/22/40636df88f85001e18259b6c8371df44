@@ -1,0 +1,54 @@
+package com.skillstorm.assignments;
+
+import java.util.Scanner;
+
+public class DiceRoll {
+	
+	public static void main(String[] args) {
+		
+		// Prompt the user to enter a number between 1 and 6
+		System.out.print("Welcome to Dice Roll! Please guess a number between 1 and 6: ");
+		Scanner scanner = new Scanner(System.in);
+		int guess = scanner.nextInt();
+		scanner.hasNextLine();
+		double balance = 100;
+		boolean cont = false;
+		
+		do {
+			// Step 2, ask the user to bet a dollar amount. Give them 3/1 odds meaning they profit 3
+			// times the amount they wagered. a $1 bet pays out $4. Store the dollar amount in a double.
+			// Let the user know how much they won.
+			System.out.format("Nice! But how confident are you in your guess? Enter a dollar amount "
+					+ "to bet from your balance of $%,.2f: ", balance);
+			double bet = scanner.nextDouble();
+			balance -= bet;
+			System.out.format("You placed a bet of $%,.2f. Your new balance is $%,.2f.\n", bet, balance);
+			double odds = 3;
+			double profit = bet*odds+bet;
+			
+			
+			// Use Math.random() to "roll" the dice
+			int answer = (int)((Math.random() * 6 + 1));
+			System.out.format("You guessed %s. Let's see if you were correct...", guess);
+			
+			// Compare the guess to the answer and let them know th result
+			if(guess == answer) {
+				balance += profit;
+				System.out.format("You guessed correctly! You now have $%,.2f. Congratulations!", balance);
+			}else {
+				System.out.format("Sorry, you guessed incorrectly; The correct number was %d. Your balance is still $%,.2f.", answer, balance);
+			}
+			System.out.print("Would you like to try again? >");
+			if(scanner.nextLine().equalsIgnoreCase("no")) {
+				continue;
+			}else {
+				cont = true;
+			}
+		}
+		
+		while(cont);
+
+		
+	}
+
+}
