@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;result&apos; in &apos;com.skillstorm.assignments.DiceRoll.main(...)&apos; to &apos;answer&apos;&#x0D;&#x0A;- Original project: &apos;Assignments&apos;&#x0D;&#x0A;- Original element: &apos;com.skillstorm.assignments.DiceRoll.main(String[]).result&apos;&#x0D;&#x0A;- Renamed element: &apos;result&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;result&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.skillstorm.assignments{DiceRoll.java[DiceRoll~main~\[QString;@result!856!885!863!868!D!0!false" name="answer" references="true" stamp="1700244293780" version="1.0"/>
+</session>

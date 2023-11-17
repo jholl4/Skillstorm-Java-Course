@@ -1,0 +1,14 @@
+package com.skillstorm.datatypes;
+
+public class DataTypesExamples {
+	
+	public static void main(String[] args) {
+		System.out.println("HEllo World");
+		int x = 1;
+		String name = "Josh";
+		char c;
+		
+		int a=1, b=2;
+	}
+
+}

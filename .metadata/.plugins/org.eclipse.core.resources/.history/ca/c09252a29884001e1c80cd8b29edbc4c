@@ -1,0 +1,15 @@
+package com.skillstorm.strings;
+
+public class StringFormatExamples {
+	
+	public static void main(String[] Args) {
+		// I'm at the grocery store and they have cookies on sale 1.99 for 5
+		// To look at the cost of one cookie
+		// I want to see the price
+		// but format it nicely
+		double costForOneOfFive = 1.99 / 5; 
+		String formattedString = String.format("The price of one cookie is $%.2d", costForOneOfFive);
+		System.out.println(formattedString);
+	}
+
+}

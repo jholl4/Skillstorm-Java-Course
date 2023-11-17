@@ -1,0 +1,33 @@
+package com.skillstorm.assignment;
+
+import java.util.Iterator;
+
+public class OrderOfOperations {
+	
+	public static void main(String[] args) {
+		
+		// Using modulus:
+		System.out.println("Modulus equation answers:");
+		
+		// Create an int array to store the questions
+		int[] modulusQuestions = new int[] {5+7%6, 12%6, 6%12, 3%5, 5%3, 5%5, 1%-2, -1%2, -1%-2, 
+				0%2, 2%0, 6*2%6, 12%4, 7%3%2};
+		// Iterate over the question array
+		for (int i = 0; i < modulusQuestions.length; i++) {
+			try {
+				int result = modulusQuestions[i];
+				System.out.println((i+1) + ":" + result);
+			} catch (ArithmeticException e ) {
+				// Added this to handle the divide by zero exception
+				System.out.println("Error on question " + i + ". Check your arithmetic!");
+			}
+			
+		}
+			
+	}
+//			int counter = 1;
+//			int  q = 5+7%6;
+//			int result = q;
+//			System.out.println(counter + ": " + result);
+//			counter++;
+}

@@ -1,0 +1,11 @@
+package com.skillstorm.assignment;
+
+public class SimpleOrder {
+	
+	public static void main(String[] args) {
+		System.out.println("Modulus answers:");
+		System.out.print("1. ");
+		System.out.println(5+7%6);
+	}
+
+}

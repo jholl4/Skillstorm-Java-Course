@@ -1,0 +1,83 @@
+package com.skillstorm.assignment;
+
+public class SimpleOrder {
+	
+	public static void main(String[] args) {
+		modulus();
+		orderOfOps();
+	}
+	
+	private static void modulus() {
+		int counter = 1;
+		System.out.println("Modulus answers:");
+		System.out.print(counter + ". ");
+		System.out.println(5+7%6);
+		counter ++;
+		System.out.print(counter + ". ");
+		System.out.println(12%6);
+		counter ++;
+		System.out.print(counter + ". ");
+		System.out.println(6%12);
+		counter ++;
+		System.out.print(counter + ". ");
+		System.out.println(3%5);
+		counter ++;
+		System.out.print(counter + ". ");
+		System.out.println(5%3);
+		counter ++;
+		System.out.print(counter + ". ");
+		System.out.println(5%5);
+		counter ++;
+		System.out.print(counter + ". ");
+		System.out.println(1%-2);
+		counter ++;
+		System.out.print(counter + ". ");
+		System.out.println(-1%2);
+		counter ++;
+		System.out.print(counter + ". ");
+		System.out.println(-1%-2);
+		counter ++;
+		System.out.print(counter + ". ");
+		System.out.println(0%2);
+		counter ++;
+		System.out.print(counter + ". ");
+		System.out.println("Divide by Zero Error");
+		counter ++;
+		System.out.print(counter + ". ");
+		System.out.println(6*2%6);
+		counter ++;
+		System.out.print(counter + ". ");
+		System.out.println(12%4);
+		counter ++;
+		System.out.print(counter + ". ");
+		System.out.println(7%3%2);
+		counter ++;
+	}
+	
+	private static void orderOfOps() {
+		int counter = 1;
+		System.out.println("Order of operations answers:");
+		System.out.print(counter + ". ");
+		int oQ1 = 10-12*2;
+		System.out.println();
+		counter ++;
+		System.out.print(counter + ". ");
+		int oQ2 = 5*(3-2);
+		System.out.println(oQ2);
+		counter ++;
+		System.out.print(counter + ". ");
+		int oQ3 = 5+2*3;
+		System.out.println(oQ3);
+		counter ++;
+		System.out.print(counter + ". ");
+		int oQ4 = 7+2*3/5-1;
+		System.out.println(oQ4);
+		counter ++;
+		System.out.print(counter + ". ");
+		int oQ5 = 18/3%7;
+		System.out.println();
+		counter ++;
+		
+	}
+
+}

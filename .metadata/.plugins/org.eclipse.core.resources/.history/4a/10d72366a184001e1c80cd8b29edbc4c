@@ -1,0 +1,46 @@
+package com.skillstorm.strings;
+
+import java.util.Scanner;
+
+public class Zodiac {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Please enter your birth year: ");
+		int year = scanner.nextInt();
+		
+		int positionInList = year % 12;
+		
+		int startPositionInString = positionInList * 10;
+		
+		int nextPositionInList = positionInList+ 1;
+		
+		int endPositionInString = nextPositionInList * 10; 
+		
+		String zodiacAnimals = 
+                "Monkey    " +
+                "Rooster   " +
+                "Dog       " +
+                "Pig       " +
+                "Rat       " +
+                "Ox        " +
+                "Tiger     " +
+                "Rabbit    " +
+                "Dragon    " +
+                "Snake     " +
+                "Horse     " +
+                "Goat      "
+                ;
+		
+		String yourAnimal = zodiacAnimals.substring(startPositionInString, endPositionInString).
+				trim();
+				
+		System.out.println(String.format("Your zodiac animal is the %s.", yourAnimal));
+				
+		scanner.close();
+		
+
+	}
+
+}

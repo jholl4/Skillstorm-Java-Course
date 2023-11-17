@@ -1,0 +1,17 @@
+package com.skillstorm.strings;
+
+public class IndexOfExamples {
+	
+	public static void main(String[] args) {
+		String cat = "Boots";
+		System.out.println(cat);
+		
+		// Example 1:
+		System.out.println(">> Look for the letter s");
+		System.out.println("Index of s is " + cat.indexOf('s'));
+		System.out.println("Index of S is " + cat.indexOf('S'));
+		
+		System.out.println("\n");
+	}
+
+}

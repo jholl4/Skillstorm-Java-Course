@@ -1,0 +1,16 @@
+package com.skillstorm.training;
+
+public class AsciiArt {
+	
+	 public static void draw(String args) {
+		 System.out.println(args);
+	 }
+	 
+	 public static void main() {
+		 draw("  __    __\r\n"
+		 		+ "o-''))_____\\\\\r\n"
+		 		+ "\"--__/ * * * )\r\n"
+		 		+ "c_c__/-c____/");
+	 }
+
+}

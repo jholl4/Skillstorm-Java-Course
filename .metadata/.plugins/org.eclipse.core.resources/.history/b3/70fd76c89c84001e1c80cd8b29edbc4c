@@ -1,0 +1,10 @@
+package com.skillstorm.strings;
+
+public class SubstringPractice {
+	
+	public static void main(String[] args) {
+		String hello = "Hello world!";
+		System.out.println(hello.substring(1));
+	}
+
+}
