@@ -1,0 +1,16 @@
+Assignment Declaration Assignment 20 Nov 2023 – Joshua Holland
+--------------------------------------------------------------
+
+Method 1: Invalid; Incorrect main method declaration; square brackets after args should be after String.
+
+Method 2: Invalid; no modifier “static” or otherwise.
+
+Method 3: Invalid. Method doesn't return a value.
+
+Method 4: Invalid; return type should be String. Method name also doesn't reflect what the method does.
+
+Method 5: Invalid; needs “void” return type.
+
+Method 6: Invalid; method name is a reserved Java keyword and return type isn't declared.
+
+Method 7: Valid if you explicitly enter your parameters as shorts.
