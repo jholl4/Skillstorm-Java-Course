@@ -34,17 +34,17 @@ public class WeatherCheck {
     	 
     	 // If sunny, ask if the humidity is high or normal
     	 if (conditions.equalsIgnoreCase("sunny")) {
-    		 System.out.println("Is humidity high or normal? >");
+    		 System.out.println("Is humidity high? >");
     		 String humidity = scanner.nextLine();
-    		 if (humidity.equalsIgnoreCase("normal")) {
+    		 if (humidity.equalsIgnoreCase("no")) {
     			 return true;
     		 }
     	 }
     	 
     	 if(conditions.equalsIgnoreCase("rainy")) {
-    		 System.out.print("Is the wind strong or weak? >");
+    		 System.out.print("Is the wind strong? >");
     		 String wind = scanner.nextLine();
-    		 if (wind.equalsIgnoreCase("weak")) {
+    		 if (wind.equalsIgnoreCase("no")) {
     			 return true;
     		 }
     	 }
