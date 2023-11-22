@@ -4,6 +4,8 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class ArrayPractice {
+	
+	// Part 1
 
 	public static void main(String[] args) {
 		int i = 0;
