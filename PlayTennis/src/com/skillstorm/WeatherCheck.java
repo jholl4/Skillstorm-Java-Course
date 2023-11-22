@@ -40,7 +40,7 @@ public class WeatherCheck {
     			 return true;
     		 }
     	 }
-    	 
+    	 // If rainy, ask if the wind is strong or weak
     	 if(conditions.equalsIgnoreCase("rainy")) {
     		 System.out.print("Is the wind strong? >");
     		 String wind = scanner.nextLine();
