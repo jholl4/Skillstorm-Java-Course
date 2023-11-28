@@ -51,6 +51,9 @@ public class CodeDemo {
 	 * @author Team
 	 */
 	public static int[] append(int[] arr1, int[] arr2) {
+		if(arr1==null || arr1.length == 0) return arr2;
+		if(arr2==null || arr2.length==0) return arr1;
+		
 		int[] result = new int[arr1.length + arr2.length];
 		
 		int counter = 0;

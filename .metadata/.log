@@ -5909,3 +5909,18 @@ java.lang.NullPointerException: Cannot invoke "org.springsource.ide.eclipse.comm
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-11-28 11:00:20.078
 !MESSAGE Classpath changed for project: WhileLoopPractice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-11-28 13:16:43.242
+!MESSAGE Classpath changed for project: Assignments
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-11-28 13:16:43.243
+!MESSAGE Classpath changed for project: FizzBuzz
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-11-28 13:16:43.243
+!MESSAGE Classpath changed for project: ForLoopPractice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-11-28 13:16:43.244
+!MESSAGE Classpath changed for project: Test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-11-28 13:27:23.374
+!MESSAGE Classpath changed for project: Assignments
