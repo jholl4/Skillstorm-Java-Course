@@ -56,5 +56,24 @@ public class SwitchStatementExample {
 		}
 		return switchDay;
 	}
+	
+	public static void evenOrOddIfElse(int n) {
+
+		if(n % 2 == 0)
+			System.out.println("even");
+		else
+			System.out.println("odd");
+		
+	}
+	
+	public static void evenOrOddSwitch(int n) {
+		
+		switch(n % 2) {
+		case 0: System.out.println("even");
+		break;
+		case 1: System.out.println("odd");
+		}
+		
+	}
 
 }
