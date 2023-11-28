@@ -1,0 +1,104 @@
+Loop 1:
+        int count = 10;
+
+        while (count > 0) {
+            System.out.println(count);
+            count += 1;
+        }
+        
+Answer: This will result in a semi-infinite loop since count will always be greater than zero, making
+        the condition almost always true. The loop will continue to print the count number until it 
+        overflows.
+---------------------------------------------------------------------------------------------------
+Loop 2:
+        String[] people = {"Bob", "Sue", "Wendy", "Waldo", "Santa", "Nemo"};
+
+        int wheresWaldo = -1;
+        for (int i = 0; i < people.length; i++) {
+            if (people[i].equals("Waldo"))
+                wheresWaldo = i;
+        }
+
+        System.out.println(wheresWaldo);
+        
+Answer: Once the loop reaches "Waldo", i will equal 3. The loop will continue until it reaches the
+        end of the array, but since we didn't account for the zero-indexing in the for loop condition,
+        i will be incremented to 6, and when the condition for the if statement is reached, people[6]
+        will throw an array out of bounds exception before it reaches the print statement.
+---------------------------------------------------------------------------------------------------
+Loop 3:
+        boolean iInTeam = false;
+
+        for (char c : "team".toCharArray()) {
+            if (c == 'i')
+                iInTeam = true;
+        }
+
+        System.out.println(iInTeam);
+        
+Answer: The for loop will check each character in the char array one at a time, won't find any to be
+        'i', and iInTeam will never be updated to true. The print statement will print false.
+---------------------------------------------------------------------------------------------------
+Loop 4:
+        for (int i = 0; i < 10; i++) {
+            if (i %2 == 0)
+                continue;
+            System.out.println(i);
+        }
+        
+Answer: This loop uses an if statement to check if i is even(or zero), and if it is, it will continue
+        without printing the even value of i. This will print every odd number from 0(inclusive) to
+        10(exclusive):
+        1
+        3
+        5
+        7
+        9
+---------------------------------------------------------------------------------------------------
+Loop 5:
+        for (int i = 0; i < 10; i += 2) {
+            System.out.println(i);
+        }
+        
+Answer: This loop prints the value of i while incrementing it by 2 each loop. This results in
+        printing every other number from 0(inclusive) to 10(exclusive):
+        0
+        2
+        4
+        6
+        8
+---------------------------------------------------------------------------------------------------
+Loop 6:
+        for (int i = 100; i < 0; i--) {
+           System.out.println(i);
+        }
+        
+Answer: This loop sets i to 100, checks if i is less than 0, and decrements i each loop. The way it
+        is written will result in unreachable code, because the condition will never be true. It
+        could be fixed by changing the condition to i > 0, which would make it count down from 100
+        to 0.
+---------------------------------------------------------------------------------------------------
+Loop 7:
+        String[] birds = {"duck", "duck", "duck", "goose", "duck", "duck"};
+        int countOfDucks = 0;
+
+        for (String bird : birds) {
+            if (bird.equals("goose")) {
+                break;
+            }
+            countOfDucks++;
+        }
+
+        System.out.println("There are " + countOfDucks + " ducks.");
+        
+Answer: This loop will iterate through the array while increasing the countOfDucks every time it
+        finds "duck", until it hits "goose". It will then break out of the loop, missing any "duck"
+        strings after "goose". It would be better to use the continue statement to skip goose and
+        continue iterating through the array. Even better style would be to change the logic
+        of the if condition to only increment countOfDucks when the element is "duck":
+        
+        for (String bird : birds) {
+            if (bird.equals("duck")) {
+                countOfDucks++;
+            }
+        }
