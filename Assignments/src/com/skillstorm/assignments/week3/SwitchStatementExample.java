@@ -36,22 +36,63 @@ public class SwitchStatementExample {
 		
 		System.out.println("Here is the output of the switch statement:");
 		
+		
 		String switchDay = "";
 		switch(todayInput) {
 		case 1: switchDay = "Sunday";
 		break;
+		
 		case 2: switchDay = "Monday";
 		break;
+		
 		case 3: switchDay = "Tuesday";
 		break;
+		
 		case 4: switchDay = "Wednesday";
 		break;
+		
 		case 5: switchDay = "Thursday";
 		break;
+		
 		case 6: switchDay = "Friday";
 		break;
+		
 		case 7: switchDay = "Saturday";
 		break;
+		
+		default: switchDay = "Invalid day entered";
+		}
+		return switchDay;
+	}
+	public static String switchExample2() {
+		
+		System.out.println("Here is the output of the switch statement:");
+		
+		
+		String switchDay = "";
+		int todayInput = 5;
+		switch(todayInput) {
+		case 1: switchDay = "Sunday";
+		break;
+		
+		case 2: switchDay = "Monday";
+		break;
+		
+		case 3: switchDay = "Tuesday";
+		break;
+		
+		case 4: switchDay = "Wednesday";
+		break;
+		
+		case 5: switchDay = "Thursday";
+		break;
+		
+		case 6: switchDay = "Friday";
+		break;
+		
+		case 7: switchDay = "Saturday";
+		break;
+		
 		default: switchDay = "Invalid day entered";
 		}
 		return switchDay;
