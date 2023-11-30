@@ -1,7 +1,5 @@
 package com.skillstorm.assignments.week3.Thursday;
 
-import java.util.Arrays;
-
 public class TreasureChest {
 
     private double weightInLbs;
@@ -86,7 +84,8 @@ public class TreasureChest {
 		this.contents = new Treasure[5];
 	}
 
-	public TreasureChest(double weightInLbs, double heightInFt, double lengthInFt, double widthInFt, boolean isLocked, Treasure[] contents) {
+	public TreasureChest(double weightInLbs, double heightInFt, double lengthInFt, 
+			double widthInFt, boolean isLocked, Treasure[] contents) {
 		this.weightInLbs = weightInLbs;
 		this.heightInFt = heightInFt;
 		this.lengthInFt = lengthInFt;
@@ -97,11 +96,17 @@ public class TreasureChest {
 	
 	public String toString() {
 		if (this.isLocked) {
-		return String.format("The %.2fft tall, %.2fft long, %.2fft wide chest that weighs %.2flbs is locked. You cannot see its contents.", heightInFt, lengthInFt, widthInFt, weightInLbs);
+		return String.format("The %.2fft tall, %.2fft long, %.2fft wide chest that weighs %.2flbs "
+				+ "is locked. You cannot see its contents.", heightInFt, lengthInFt, widthInFt, 
+				weightInLbs);
 		}else if (!this.isLocked && checkNumberOfTreasures()>0){
-			return String.format("The %.2fft tall, %.2fft long, %.2fft wide chest that weighs %.2flbs is open. It contains %s treasures.", heightInFt, lengthInFt, widthInFt, weightInLbs, checkNumberOfTreasures());
+			return String.format("The %.2fft tall, %.2fft long, %.2fft wide chest that weighs"
+					+ " %.2flbs is open. It contains %s treasures.", heightInFt, lengthInFt, 
+					widthInFt, weightInLbs, checkNumberOfTreasures());
 		}else {
-			return String.format("The %.2fft tall, %.2fft long, %.2fft wide chest that weighs %.2flbs is unlocked. Nothing rests inside.", heightInFt, lengthInFt, widthInFt, weightInLbs);
+			return String.format("The %.2fft tall, %.2fft long, %.2fft wide chest that weighs"
+					+ " %.2flbs is unlocked. Nothing rests inside.", heightInFt, lengthInFt, 
+					widthInFt, weightInLbs);
 		}
 	}
 	
