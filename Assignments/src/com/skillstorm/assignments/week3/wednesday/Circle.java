@@ -25,10 +25,10 @@ public class Circle {
 	}
 	
 	public boolean isSameCircle(Circle otherCircle) {
-		if(this.radius == otherCircle.radius) {
-			return true;
+		if(otherCircle==null) {
+			return false;
 		}
-		return false;
+		return radius==otherCircle.radius;
 	}
 	
 	
