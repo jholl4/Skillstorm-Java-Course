@@ -25,6 +25,8 @@ public class TestCircle {
 		
 		System.out.println("Are both circles the same size (circle 1 & 2)? " + circle1.isSameCircle(circle2));
 		System.out.println("Are both circles the same size (circle 1 & 3)? " + circle1.isSameCircle(circle3));
+		
+		System.out.println(circle1.toString());
 	}
 	
 	
