@@ -51,7 +51,7 @@ public class Cat extends Animal{
 	
 	@Override
 	public Cat reproduce() {
-		return new Cat(this.getName(), true, false);
+		return new Cat(this.getName() + " Jr", true, false);
 	}
 
 	@Override

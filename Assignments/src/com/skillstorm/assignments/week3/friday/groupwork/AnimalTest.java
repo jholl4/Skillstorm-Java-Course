@@ -12,7 +12,13 @@ public class AnimalTest {
 		Dog gandalf = new Dog("Gandalf", true, false);
 		System.out.println(gandalf);
 		
-		System.out.printf("Are %s and %s the same dog? %b.", gimli.getName(), gandalf.getName(), gimli.equals(gandalf));
+		System.out.printf("Are %s and %s the same dog? %b.%n", gimli.getName(), gandalf.getName(), gimli.equals(gandalf));
+		
+		System.out.println(kitty.reproduce());
+		kitty.talk();
+		gimli.talk();
+		
+		
 
 	}
 
