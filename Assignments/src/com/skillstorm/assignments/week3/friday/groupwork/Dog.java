@@ -1,5 +1,7 @@
 package com.skillstorm.assignments.week3.friday.groupwork;
 
+import java.util.Objects;
+
 public class Dog extends Animal {
 
 	/* Add some properties */
@@ -54,7 +56,7 @@ public class Dog extends Animal {
 		if(obj==null)return false;
 		if(obj.getClass() != this.getClass())return false;
 		Dog other = (Dog) obj;
-		return super.equals(obj) && other.numOfPuppies == this.numOfPuppies && other.isServiceDog == this.isServiceDog;
+		return Objects.equals(other, this) && other.numOfPuppies == this.numOfPuppies && other.isServiceDog == this.isServiceDog;
 	}
 
 }
