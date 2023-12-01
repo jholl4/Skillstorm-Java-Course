@@ -6,8 +6,13 @@ public class AnimalTest {
 		Cat kitty = new Cat();
 		System.out.println(kitty);
 		
-		Dog doggo = new Dog("Gimli", true, false);
-		System.out.println(doggo);
+		Dog gimli = new Dog("Gimli", true, false);
+		System.out.println(gimli);
+		
+		Dog gandalf = new Dog("Gandalf", true, false);
+		System.out.println(gandalf);
+		
+		System.out.printf("Are %s and %s the same dog? %b.", gimli.getName(), gandalf.getName(), gimli.equals(gandalf));
 
 	}
 

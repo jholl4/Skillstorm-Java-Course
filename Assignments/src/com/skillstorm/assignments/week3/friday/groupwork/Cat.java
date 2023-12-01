@@ -7,7 +7,9 @@ public class Cat extends Animal{
 	
 	
 	public Cat() {
-		
+		super("nameless stray", true, false);
+		this.numLivesLeft = 9;
+		this.weightInLbs = 5;
 	}
 	
 	public Cat(String name, boolean isAlive, boolean isExtinct) {

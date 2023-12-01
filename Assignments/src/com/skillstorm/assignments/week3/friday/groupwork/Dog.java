@@ -7,6 +7,9 @@ public class Dog extends Animal{
 	private boolean isServiceDog;
 	
 	
+	public Dog() {
+		
+	}
 	
 	public Dog(String name, boolean isAlive, boolean isExtinct) {
 		super(name, isAlive, isExtinct);
