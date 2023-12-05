@@ -29,7 +29,7 @@ public class FillableTest {
 		System.out.printf("Gas tank tests%n-------------------%n%n");
 		System.out.printf("Starting status for all gas tanks:%n%n%s%n%s%n%s%n", tank1, tank2, tank3);
 		System.out.println("Attempting to overfill tank 2...");
-		tank2.fill(25);
+		tank2.fill(31);
 		System.out.println(tank2);
 		System.out.println("Attempting to siphon more gas than tank 1 has...");
 		tank1.empty(30);
