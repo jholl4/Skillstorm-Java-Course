@@ -15,7 +15,6 @@ public class Person {
 	}
 
 
-
 	void commute() {
 		this.vehicle.go();
 	}
