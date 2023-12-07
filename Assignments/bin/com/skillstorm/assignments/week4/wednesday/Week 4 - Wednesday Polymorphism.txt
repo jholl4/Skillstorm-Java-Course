@@ -1,0 +1,14 @@
+Week 4 - Wednesday Polymorphism
+Joshua Holland
+-------------------------------------------------
+Problem 1
+1. No
+2. N/A
+3. The Rose smell() method won't be able to access the encapsulated properties marked as private in the parent class without the use of getter and setter methods.
+4. Method overriding (runtime polymorphism) in the case of the Rose class overriding the  smell() method.
+-------------------------------------------------
+Problem 2
+1. No
+2. N/A
+3. Can't store a Flower object in a Rose variable unless you explicitly typecast it as a Rose.
+4. Also comile-time in the case of the smell() method being overridden. You could maybe argue that in the case of the different constructors, we're using Method overloading (compile-time polymorphism).
