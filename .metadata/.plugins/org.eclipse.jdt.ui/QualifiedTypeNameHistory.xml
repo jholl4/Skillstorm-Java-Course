@@ -22,4 +22,6 @@
     <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.Thursday.groupwork.HourlyEmployee"/>
     <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.Thursday.groupwork.InvalidWageException"/>
     <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.Thursday.groupwork.InvalidSalaryException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.thursday.InvalidSizeException"/>
 </qualifiedTypeNameHistroy>
