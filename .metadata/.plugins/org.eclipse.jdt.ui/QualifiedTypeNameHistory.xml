@@ -17,4 +17,9 @@
     <fullyQualifiedTypeName name="com.skillstorm.assignments.week3.friday.Rectangle"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.tuesday.CoffeeMug"/>
+    <fullyQualifiedTypeName name="com.skillstorm.RottenFoodException"/>
+    <fullyQualifiedTypeName name="com.skillstorm.RottenMangoException"/>
+    <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.Thursday.groupwork.HourlyEmployee"/>
+    <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.Thursday.groupwork.InvalidWageException"/>
+    <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.Thursday.groupwork.InvalidSalaryException"/>
 </qualifiedTypeNameHistroy>

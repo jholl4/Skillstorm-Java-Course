@@ -1,4 +1,4 @@
-package com.skillstorm.assignments.week4.Thursday.groupwork;
+package com.skillstorm.assignments.week4.thursday.groupwork;
 
 public abstract class Employee {
 	
