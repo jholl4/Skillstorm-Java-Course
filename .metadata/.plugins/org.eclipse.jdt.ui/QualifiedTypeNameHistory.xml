@@ -5,10 +5,8 @@
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="com.skillstorm.Circle"/>
     <fullyQualifiedTypeName name="com.skillstorm.assignments.week3.Thursday.TreasureChest"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
@@ -22,6 +20,10 @@
     <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.Thursday.groupwork.HourlyEmployee"/>
     <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.Thursday.groupwork.InvalidWageException"/>
     <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.Thursday.groupwork.InvalidSalaryException"/>
-    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.thursday.InvalidSizeException"/>
+    <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.friday.IceCreamShop"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.friday.IceCream"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 </qualifiedTypeNameHistroy>
