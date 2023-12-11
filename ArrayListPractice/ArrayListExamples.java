@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ArrayListExamples {
 
@@ -49,6 +50,10 @@ public class ArrayListExamples {
          */
 
         ArrayList<String> fruits = new ArrayList<>();
+
+        ArrayList<String> fruits2 = new ArrayList<>(Arrays.asList("string1", "string2", "string3")); // to instantiate
+                                                                                                     // with elements
+                                                                                                     // included
 
         fruits.add("mango");
         fruits.add("pineapple");

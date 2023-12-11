@@ -1,0 +1,14 @@
+1. List 3 coding conventions you are good at following already.
+	- I have the order of class declarations down pretty well now.
+	- Only using one declaration per line, and initializing local variables where they're declared unless
+		the value depends on a computation happening first.
+	- Naming conventions.
+
+2. List 3 coding conventions you will start using more consistently while programming.
+	- Declaring class(static) variables before instance variables in the order of class declaration.
+	- Avoiding lines longer than 80 characters, and following wrapping conventions for expressions.
+	- Avoiding hard-coding numerical values and constants directly when they should be stored in a variable.
+
+3. Why is it important to follow coding conventions and write clean code?
+	- If anyone else will read or use the code, you would want it to be as easy to read as possible.
+	- If the codebase will be used for a long time, it will make it easier to come back to and maintain.
