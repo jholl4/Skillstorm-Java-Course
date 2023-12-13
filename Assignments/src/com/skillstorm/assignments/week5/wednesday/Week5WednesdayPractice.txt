@@ -5,4 +5,5 @@
 	- Question 9 (Which one can hold a larger integer value, a char or a short ?), I got lucky on this one; I couldn't remember the 	sizes and ranges, but narrowed it down to two answers and picked one. But now I remember that they both use 2 bytes, but since short 	can have negative values, it's range doesn't go as high as a char.
 
 3. Find one resource for learning more about the topic you struggled on such as method overloading https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-javaLinks to an external site. and put the link here and share the link with your classmates.
-	- Here is a good brief (a little over 2min) video on Java memory management that served as a good reminder for me.
+	- Here is a good brief (a little over 2min) video on Java memory management that served as a good reminder for me:
+	https://www.youtube.com/watch?v=450maTzSIvA&t=2s
