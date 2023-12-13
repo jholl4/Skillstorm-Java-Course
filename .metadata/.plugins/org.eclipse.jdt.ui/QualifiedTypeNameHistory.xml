@@ -22,8 +22,8 @@
     <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.Thursday.groupwork.InvalidSalaryException"/>
     <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.thursday.InvalidSizeException"/>
     <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.friday.IceCreamShop"/>
-    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="com.skillstorm.assignments.week4.friday.IceCream"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

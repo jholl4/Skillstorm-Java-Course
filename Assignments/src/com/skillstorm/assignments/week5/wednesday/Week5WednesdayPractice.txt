@@ -1,0 +1,8 @@
+1. What types of questions were the hardest for you? Give the problem number for one of them. Which Test objective does it fall under?
+	- I got a good amount of 'Using Decision Statements' questions incorrect. One thing that I'm working on is knowing where data ends up being stored in memory. Question 35 is a good example, as I passed over the fact that when the reference variable balances2 was assigned, it did not create a new Array object; instead it references the same Array as balances1, so when an element is reassigned for one variable, it is reassigned for both of them.
+
+2. What was a question you got right, but when you read the solution, you realized your reasoning was off? (Give the problem number and explanation.)
+	- Question 9 (Which one can hold a larger integer value, a char or a short ?), I got lucky on this one; I couldn't remember the 	sizes and ranges, but narrowed it down to two answers and picked one. But now I remember that they both use 2 bytes, but since short 	can have negative values, it's range doesn't go as high as a char.
+
+3. Find one resource for learning more about the topic you struggled on such as method overloading https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-javaLinks to an external site. and put the link here and share the link with your classmates.
+	- Here is a good brief (a little over 2min) video on Java memory management that served as a good reminder for me.
