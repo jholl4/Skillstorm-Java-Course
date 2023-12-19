@@ -1,31 +1,31 @@
 package com.skillstorm;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class IfElseIfPractice {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		
+		// Scanner scanner = new Scanner(System.in);
+
 		// Setting up an if else if block
 		// based on a decision tree
 		System.out.print("Has the \"Use by\" date on the milk passed? yes/no: >");
-		boolean hasUseByDatePassed = scanner.next;
+		boolean hasUseByDatePassed = false;
 		boolean isSpoiled = true;
 		boolean wasTheUseByDateMoreThan3DaysAgo = false;
 		boolean doesItSmellFunny = false;
-		
-		if(!hasUseByDatePassed) {
+
+		if (!hasUseByDatePassed) {
 			// Not spoiled?
 			isSpoiled = false;
-		}else if(!wasTheUseByDateMoreThan3DaysAgo){
+		} else if (!wasTheUseByDateMoreThan3DaysAgo) {
 			isSpoiled = false;
-		}else if(!doesItSmellFunny) {
+		} else if (!doesItSmellFunny) {
 			isSpoiled = false;
-		}else {
+		} else {
 			isSpoiled = true; // This is redundant
 		}
-		System.out.println("The milk ");
+		System.out.println("Is the milk spoiled? " + isSpoiled);
 
 	}
 

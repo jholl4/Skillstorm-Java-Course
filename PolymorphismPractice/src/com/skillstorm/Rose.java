@@ -10,7 +10,7 @@ public class Rose extends Flower {
 	}
 
 	public void smell() {
-		System.out.printf("This %s %s rose smells good!\n", this.color, this.name);
+		// System.out.printf("This %s %s rose smells good!\n", this.color, this.name);
 	}
 
 }

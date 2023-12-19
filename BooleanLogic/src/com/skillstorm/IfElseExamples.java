@@ -39,8 +39,8 @@ public class IfElseExamples {
 				System.out.println("Sorry, you're underage!");
 			}
 		}
-		
-		if(!isInUSA)
+
+		// if(!isInUSA)
 
 		scanner.close();
 	}
