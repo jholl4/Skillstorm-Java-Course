@@ -1,0 +1,12 @@
+1. What types of questions were the hardest for you? Give the problem number for one of them. Which Test objective does it fall under?
+	- Still showing lower performance on the "Using Decision Statements" objective. Question 22's explanation helped me understand that if/else statements don't cascade. I was viewing them incorrectly. Putting the code in notepad
+	with curly braces helped me understand better.
+
+2. What was a question you got right, but when you read the solution, you realized your reasoning was off? (Give the problem number and explanation.)
+	- Question 25's answer I got partially right, but I was missing the fact that byte, char and short operands get promoted to at least int before performing math, and if one is larger, the smaller one will get promoted to
+	the larger type.
+
+3. Find one resource for learning more about the topic you struggled on such as method overloading https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-javaLinks to an external site. and put the link here. It is recommended you also share the link with your classmates.
+	- I tend to refer to the geeksforgeeks website often, and when I looked into type promotion, I found this page that details type promotion in the context of method arguments and overloading:
+	https://www.geeksforgeeks.org/automatic-type-promotion-in-overloading-in-java/
+	I think I spotted a flaw in one of the examples but the explanation was good.
