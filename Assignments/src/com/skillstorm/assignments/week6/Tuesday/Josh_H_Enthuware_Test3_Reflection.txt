@@ -1,12 +1,15 @@
 1. What types of questions were the hardest for you? Give the problem number for one of them. Which Test objective does it fall under?
 
-	- My lowest pertentage objective was Java basics. In question 32, I didn't properly read the problem. I wasn't considering that 	variables that weren't initialized were still object references.
+	- My lowest pertentage objective was Java basics. In question 32, I didn't properly read the problem. I wasn't considering that
+	variables that weren't initialized were still object references.
 
 2. What was a question you got right, but when you read the solution, you realized your reasoning was off? (Give the problem number and explanation.)
 
-	- Question 36. I didn't get it correct for the wrong reason per se, but the explanation was a good reminder that the java.lang 	package is automatically imported.
+	- Question 36. I didn't get it correct for the wrong reason per se, but the explanation was a good reminder that the java.lang
+	package is automatically imported.
 
 3. Find one resource for learning more about the topic you struggled on such as method overloading https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-javaLinks to an external site. and put the link here. It is recommended you also share the link with your classmates.
 
-	- Not related to the first question above, but this stackoverflow page highlights the distinction that the default constructor does 	not initialize the properties of the class object (test question 40):
+	- Not related to the first question above, but this stackoverflow page highlights the distinction that the default constructor
+	does not initialize the properties of the class object (test question 40):
 	https://stackoverflow.com/questions/4488716/java-default-constructor
