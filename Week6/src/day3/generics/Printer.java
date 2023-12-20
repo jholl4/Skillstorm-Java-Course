@@ -1,4 +1,4 @@
-package day3;
+package day3.generics;
 
 public class Printer<T extends Animal> {
 
