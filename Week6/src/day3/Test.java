@@ -20,10 +20,6 @@ public class Test {
         String exam = "OCJA";
         System.out.printf("I scored %d marks in the %s exam!", exam, marks);
 
-        int a;    
-        int b = 0;    
-        static int c;    
-        public void m()    {       
-            int d;       int e = 0;           }
+
     }
 }
