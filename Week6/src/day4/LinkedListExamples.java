@@ -19,6 +19,21 @@ public class LinkedListExamples {
      * - anywhere else will be O(n)
      * - capacity will always equal size
      * - java linkedlist are always doubly linked
+     * 
+     * SINGLY LINKED LIST
+     * - each node has only one pointer--to the next node
+     * - last pointer points to null
+     * - takes up the least amount of memory--use for lightweight projects
+     * - only has a head, no tail
+     * 
+     * DOUBLY LINKED LIST
+     * - each node has two pointers-to the previous and next nodes
+     * - head's previous pointer and tail's next pointer both point to null
+     * 
+     * CIRCULARLY LINKED LIST
+     * - has one head and one tail
+     * - each node has one pointer--next node
+     * - tail's next pointer points to head
      */
 
     public static void main(String[] args) {

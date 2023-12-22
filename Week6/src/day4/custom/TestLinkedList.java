@@ -40,6 +40,13 @@ public class TestLinkedList {
         ll.add("String");
         System.out.println("ll's head: " + ll.getHead());
 
+        System.out.println("---------------------");
+        System.out.println("Testing Circularly Linked List");
+
+        CircularlyLinkedList<String> cList = new CircularlyLinkedList<>();
+        cList.addNode("First String");
+        System.out.println(cList);
+
     }
 
 }
