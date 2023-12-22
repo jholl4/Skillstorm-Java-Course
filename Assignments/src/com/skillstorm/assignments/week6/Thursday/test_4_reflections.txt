@@ -7,8 +7,8 @@
 
 2. What was a question you got right, but when you read the solution, you realized your reasoning was off? (Give the problem number and explanation.)
 
-	- Question 7; one of the correct answers involved initializing stativariables in a static block to ensure that they are initialized
-	even when no instance of the class is created. I hadn't seen this use of a static block before, but I used process-of-initiation to 
+	- Question 7; one of the correct answers involved initializing static variables in a static block to ensure that they are initialized
+	even when no instance of the class is created. I hadn't seen this use of a static block before, but I used process-of-elimination to 
 	narrow that down as one of the answers.
 
 3. Find one resource for learning more about the topic you struggled on such as method overloading https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-javaLinks to an external site. and put the link here. It is recommended you also share the link with your classmates.
