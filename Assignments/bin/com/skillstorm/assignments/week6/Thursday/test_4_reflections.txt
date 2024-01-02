@@ -1,0 +1,17 @@
+1. What types of questions were the hardest for you? Give the problem number for one of them. Which Test objective does it fall under?
+
+	- I have a bit of a weak point with data type and method objective questions. Question 12, it slipped past me that the method to
+	increment the i variable never actually ASSIGNED the new value to the variable. I also did not fully understand the "pass by value"
+	nature of passing an array object into a method actually points to the same array object via its memory address, so that its value
+	WAS modified outside of the called method. Definitely something I need to spend some more time with.
+
+2. What was a question you got right, but when you read the solution, you realized your reasoning was off? (Give the problem number and explanation.)
+
+	- Question 7; one of the correct answers involved initializing static variables in a static block to ensure that they are initialized
+	even when no instance of the class is created. I hadn't seen this use of a static block before, but I used process-of-elimination to 
+	narrow that down as one of the answers.
+
+3. Find one resource for learning more about the topic you struggled on such as method overloading https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-javaLinks to an external site. and put the link here. It is recommended you also share the link with your classmates.
+
+	- I've been having a hard time wrapping my head around the concept of 'pass by value' and this article has helped me improve my 
+	level of understanding: https://www.javatpoint.com/java-pass-by-value
