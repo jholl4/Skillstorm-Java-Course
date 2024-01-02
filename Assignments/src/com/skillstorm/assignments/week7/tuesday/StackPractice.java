@@ -44,11 +44,11 @@ public class StackPractice {
                 // closing parenthesis
                 parenthesis.pop();
             }
-            // if the stack is empty after iterating through the expression characters, this
-            // will return true,
-            // indicating that we had an even/balanced amount of opening and closing
-            // parenthesis
         }
+        // if the stack is empty after iterating through the expression characters, this
+        // will return true,
+        // indicating that we had an even/balanced amount of opening and closing
+        // parenthesis
         return parenthesis.isEmpty();
 
     }
