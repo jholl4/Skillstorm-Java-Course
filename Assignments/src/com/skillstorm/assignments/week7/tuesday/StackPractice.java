@@ -6,8 +6,10 @@ import java.util.Stack;
 public class StackPractice {
 
     // I was wondering why the starting code started with a LinkedList, and would
-    // have coded this a bit
-    // differently if I had known. I'm using that knowledge in the second method.
+    // have coded this a bit differently if I had known. Learning new things all the
+    // time!
+    // I'm using that knowledge in the second method.
+
     public static String reverse(String str) {
         LinkedList<Character> chars = new LinkedList<>();
         Stack<Character> charStack = new Stack<>();
