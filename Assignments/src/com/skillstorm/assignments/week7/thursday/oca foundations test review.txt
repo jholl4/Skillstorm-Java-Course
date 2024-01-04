@@ -1,0 +1,11 @@
+1. What types of questions were the hardest for you? Give the problem number for one of them. Which Test objective does it fall under?
+
+	- I struggled with the questions involving working with Java-s Date-Time API. Question 25, 68 and 76. Some of the deatils I had partially correct, but it was definitely a gap in my knowledge.
+
+2. What was a question you got right, but when you read the solution, you realized your reasoning was off? (Give the problem number and explanation.)
+
+	- Question 35. I got lucky on this one due to an educated guess and process of elimination...did not know about the predicate interface until reviewing this test!
+
+3. Find one resource for learning more about the topic you struggled on such as method overloading https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-javaLinks to an external site. and put the link here. It is recommended you also share the link with your classmates.
+
+	- I found this video nice as an intro to the Date-Time API: https://www.youtube.com/watch?v=0XgdX5hDL4U
