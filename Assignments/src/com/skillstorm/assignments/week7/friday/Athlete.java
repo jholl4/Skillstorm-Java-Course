@@ -47,7 +47,7 @@ public class Athlete implements Comparable<Athlete> {
      * Compares two athletes using their win ratios.
      * If either athlete has only competed in 30 or less events, they are instead
      * compared
-     * according to their number of events played.
+     * according to their number of events won.
      */
     @Override
     public int compareTo(Athlete rival) {
@@ -55,7 +55,7 @@ public class Athlete implements Comparable<Athlete> {
             throw new NullPointerException("Can't compare null athlete objects");
         }
         if (this.events <= 30 || rival.events <= 30) {
-            return this.events - rival.events;
+            return this.wins - rival.wins;
         }
         return (int) this.getWinRatio() - (int) rival.getWinRatio();
     }
