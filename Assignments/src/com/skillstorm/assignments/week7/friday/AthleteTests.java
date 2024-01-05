@@ -28,9 +28,6 @@ public class AthleteTests {
             rank++;
         }
 
-        // If I wasn't sure if any athletes might not have 30 games I would surround
-        // this in a
-        // try/catch block
         Collections.sort(athletes, Comparator.reverseOrder());
 
         System.out.println("*****************************************************************");
