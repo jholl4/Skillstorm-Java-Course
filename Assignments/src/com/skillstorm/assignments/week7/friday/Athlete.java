@@ -68,8 +68,7 @@ public class Athlete implements Comparable<Athlete> {
     @Override
     public String toString() {
         if (this.events <= 30) {
-            return String.format("%s: Wins: %d, Events: %d, Win Rate: *not yet ranked*", name, wins, events,
-                    getWinRatio());
+            return String.format("%s: Wins: %d, Events: %d, Win Rate: *not yet ranked*", name, wins, events);
         }
         return String.format("%s: Wins: %d, Events: %d, Win Rate: %.2f%%", name, wins, events, getWinRatio());
     }
