@@ -1,0 +1,8 @@
+1. What types of questions were the hardest for you? Give the problem number for one of them. Which Test objective does it fall under?
+	- Lambda Expressions...not something that has been covered during lecture yet. Questions 43 and 52.
+
+2. What was a question you got right, but when you read the solution, you realized your reasoning was off? (Give the problem number and explanation.)
+	- Question 24. I picked the opposite of the obvious answer and got it right, but I didn't fully understand how the order of assignment in the problem worked. The explanation has cleared that up for me!
+
+3. Find one resource for learning more about the topic you struggled on such as method overloading https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-javaLinks to an external site. and put the link here. It is recommended you also share the link with your classmates.
+	- I recently found this channel called Coding with John on youtube and really like his succinct explanations of coding topics. Here's his video on Lambda expressions: https://www.youtube.com/watch?v=tj5sLSFjVj4&t=10s
