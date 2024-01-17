@@ -3,23 +3,34 @@ package com.skillstorm.groupwork.enums;
 import com.skillstorm.groupwork.interfaces.Direction;
 
 /**
- * An enum (a set of constants) that represents the cardinal directions on a compass. 
+ * An enum (a set of constants) that represents the cardinal directions on a
+ * compass.
  * 
- * To learn more, read https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html
+ * To learn more, read
+ * https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html
  *
  */
 public enum Cardinal implements Direction {
-	
-	// TODO 1a Create an enum 
-	//  that represents the cardinal directions on a compass
 
+	// 1a Create an enum
+	// that represents the cardinal directions on a compass
+	NORTH,
+	SOUTH,
+	EAST,
+	WEST;
 
-	// TODO 1b Return the opposite direction
+	// 1b Return the opposite direction
 	// Hint: Use the this keyword to see what the current direction is
 	@Override
 	public Cardinal reverse() {
-		return null;
+		if (this == NORTH)
+			return Cardinal.SOUTH;
+		if (this == SOUTH)
+			return Cardinal.NORTH;
+		if (this == EAST)
+			return Cardinal.WEST;
+		else
+			return Cardinal.EAST;
 	}
-	
 
 }
