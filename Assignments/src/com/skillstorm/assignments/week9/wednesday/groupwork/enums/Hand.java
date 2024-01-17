@@ -16,10 +16,12 @@ public enum Hand {
 	// 2b Return the opposite
 	// Hint: Use the this keyword to see what the current value is
 	public Hand reverse() {
-		if (this == LEFT)
-			return RIGHT;
-		else
-			return LEFT;
+		switch (this) {
+			case RIGHT:
+				return LEFT;
+			default:
+				return RIGHT;
+		}
 
 	}
 

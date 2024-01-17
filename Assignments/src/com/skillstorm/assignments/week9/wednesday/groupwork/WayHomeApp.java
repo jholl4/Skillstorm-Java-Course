@@ -20,8 +20,7 @@ public class WayHomeApp {
 		// Hint: Use the stack methods (push, pop, and peek)
 		// to write a loop that reverses the order of the directions.
 		// (Don't forget to reverse each direction itself)
-		directions.stream().forEach(e -> reversed.push(e));
-
+		directions.stream().forEach(e -> reversed.push(e.reverse()));
 		return reversed;
 		////////////////////////////////////////////////////
 	}

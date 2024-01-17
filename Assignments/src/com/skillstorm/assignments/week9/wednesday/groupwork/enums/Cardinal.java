@@ -23,14 +23,15 @@ public enum Cardinal implements Direction {
 	// Hint: Use the this keyword to see what the current direction is
 	@Override
 	public Cardinal reverse() {
-		if (this == NORTH)
-			return Cardinal.SOUTH;
-		if (this == SOUTH)
-			return Cardinal.NORTH;
-		if (this == EAST)
-			return Cardinal.WEST;
-		else
-			return Cardinal.EAST;
+		switch (this) {
+			case NORTH:
+				return SOUTH;
+			case SOUTH:
+				return NORTH;
+			case EAST:
+				return WEST;
+			default:
+				return EAST;
+		}
 	}
-
 }
