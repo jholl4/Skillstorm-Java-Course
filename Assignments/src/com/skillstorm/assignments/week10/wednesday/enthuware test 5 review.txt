@@ -1,0 +1,8 @@
+1. What types of questions were the hardest for you? Give the problem number for one of them. Which Test objective does it fall under?
+	- Working with Inheritance - 20...I picked the first and fourth options which both have the same issue--even though we as the programmer know that a certain variable will refer to the correct object at runtime, the compiler does not, so we need to explicitly cast the object as the correct type that will work for the variable's reference type.
+
+2. What was a question you got right, but when you read the solution, you realized your reasoning was off? (Give the problem number and explanation.)
+	- Question 24, I was torn between options 3 and 4. I thought that once the replace method was used on a string that it would place it in the string pool, and the object on the right side of the condition statement would point to the same point in memory. I was not aware that the replace method just returns the same string object if no changes are made.
+
+3. Find one resource for learning more about the topic you struggled on such as method overloading https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-javaLinks to an external site. and put the link here. It is recommended you also share the link with your classmates.
+	- The enthuware discussion forum on this question actually helped me understand a bit better: https://enthuware.com/forum/viewtopic.php?f=2&t=2515

@@ -1,6 +1,6 @@
 package com.skillstorm.groupwork;
 
-public class Coffee {
+public final class Coffee {
 
     private final String coffeeType;
     private final String roastType;
