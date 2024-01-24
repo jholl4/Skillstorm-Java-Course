@@ -12,10 +12,12 @@ public class CoffeeFactory {
     }
 
     public Coffee orderCoffee(String coffeeType, String roastType) throws CoffeeException {
-        System.out.println("So, you would like a " + coffeeType + " with " + roastType + " beans?");
+        System.out.println("So, you would like a(n) " + coffeeType + " with " + roastType + " beans?");
         for (Coffee coffee : coffees) {
             if (coffeeType.equalsIgnoreCase(coffee.getCoffeeType())
                     && roastType.equalsIgnoreCase(coffee.getRoastType())) {
+                System.out.println("Coming right up: your " + coffee.getCoffeeType() + " with " + coffee.getRoastType()
+                        + " roast!");
                 return new Coffee(coffeeType, roastType);
             }
         }

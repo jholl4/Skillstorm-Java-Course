@@ -1,5 +1,12 @@
 package com.skillstorm.groupwork;
 
-public class CoffeeException {
+public class CoffeeException extends Exception {
 
+    public CoffeeException() {
+        super();
+    }
+
+    public CoffeeException(String message) {
+        super(message);
+    }
 }
