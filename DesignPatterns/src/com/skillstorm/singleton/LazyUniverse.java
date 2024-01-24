@@ -1,7 +1,8 @@
 package com.skillstorm.singleton;
 
 /*
- * LazyUniverse is a singleton. It uses lazy initialization so the instance is only loaded into memory the first time it's needed
+ * LazyUniverse is a singleton. It uses lazy initialization so the instance is only
+ * loaded into memory the first time it's needed
  */
 
 public class LazyUniverse {
