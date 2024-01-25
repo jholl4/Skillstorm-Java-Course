@@ -16,8 +16,8 @@ public class FactoryTest {
         CoffeeFactory starbucks = new CoffeeFactory(menu);
 
         try {
-            starbucks.orderCoffee("espresso", "dark");
-            starbucks.orderCoffee("Americano", "dark");
+            Coffee order1 = starbucks.orderCoffee("espresso", "dark");
+            Coffee order2 = starbucks.orderCoffee("Americano", "dark");
         } catch (CoffeeException e) {
             System.out.println(e.getMessage());
         }
