@@ -21,7 +21,7 @@ public class Data {
          dataList.removeIf((Data d) -> {
             return d.value % 2 == 0;
          });
-         System.out.println("Removed " + d + ", ");
+         // System.out.println("Removed " + d + ", ");
       }
    }
 }
