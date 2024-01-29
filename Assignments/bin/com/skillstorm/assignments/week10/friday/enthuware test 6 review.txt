@@ -1,0 +1,8 @@
+1. What types of questions were the hardest for you? Give the problem number for one of them. Which Test objective does it fall under?
+	- These tests have shown some strange cases that can occur with inheritance that I ended up getting incorrect. I did not catch the conflict in question 2 where a class inherits a method and implenents an interface that contains a method of the same signature. Good to know.
+
+2. What was a question you got right, but when you read the solution, you realized your reasoning was off? (Give the problem number and explanation.)
+	- In question 8, I correctly decided that the code will not compile, but the explanation has a good reminder about distinguishing between primitive types and objects when inheriting methods with different return types. With primitives they must be the same type, but with objects, they can return a covariant of the overridden method's type.
+
+3. Find one resource for learning more about the topic you struggled on such as method overloading https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-javaLinks to an external site. and put the link here. It is recommended you also share the link with your classmates.
+	- https://www.baeldung.com/java-covariant-return-type has some examples of how covariant return types can be used. It also led me to read about the Liskov substitution SOLID principle.

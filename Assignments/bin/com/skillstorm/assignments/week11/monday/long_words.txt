@@ -1,0 +1,10 @@
+Here are all of the words from the input file that are over 25 characters long:
+
+antidisestablishmentarianism
+cyclotrimethylenetrinitramine
+dichlorodiphenyltrichloroethane
+electroencephalographically
+hydroxydehydrocorticosterone
+hydroxydesoxycorticosterone
+microspectrophotometrically
+trinitrophenylmethylnitramine

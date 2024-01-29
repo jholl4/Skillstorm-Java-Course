@@ -1,0 +1,8 @@
+1. What types of questions were the hardest for you? Give the problem number for one of them. Which Test objective does it fall under?
+	- Working with Java Data Types - Question 17 clarified a couple of things on the boxing of types with wrapper classes.
+
+2. What was a question you got right, but when you read the solution, you realized your reasoning was off? (Give the problem number and explanation.)
+	- Question 33...I almost selected double or float but changed it when I came back to review the question. I sometimes miss the lack of the 'f' needed in the float annotation.
+
+3. Find one resource for learning more about the topic you struggled on such as method overloading https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-javaLinks to an external site. and put the link here. It is recommended you also share the link with your classmates.
+	- Another coding with John video--some of the finer details with primitive data types seem to slip me up fairly often...There is some memorization involved here that I need to drill in on a little more. https://www.youtube.com/watch?v=WQ7mvQFSmYc
