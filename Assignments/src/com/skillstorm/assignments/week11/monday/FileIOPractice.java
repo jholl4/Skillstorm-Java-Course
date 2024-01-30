@@ -5,6 +5,7 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class FileIOPractice {
@@ -12,10 +13,12 @@ public class FileIOPractice {
     private static String path = "src\\com\\skillstorm\\assignments\\week11\\monday\\";
     private static String readFileName = "words_alpha.txt";
     private static String writeFileName = "long_words.txt";
+    private static String palindromeFileName = "palindromes.txt";
 
     public static void main(String[] args) {
         printLongestWordInFile(readFileName);
         longWordWriter(readFileName);
+        palindromeWriter(readFileName);
 
     }
 
@@ -93,8 +96,7 @@ public class FileIOPractice {
             e.printStackTrace();
         }
 
-        // Write the list of long words to the file. Not sure if this would be efficient
-        // with a large list but it works fine here.
+        // Write the list of long words to the file.
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(path + writeFileName))) {
             writer.write("Here are all of the words from the input file that are over 25 characters long:\n\n");
             writer.write(String.join("\n", longWords));
@@ -102,6 +104,49 @@ public class FileIOPractice {
             // let the user know that the file has been created or overwritten
             System.out.println("longWordWriter complete!");
         } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    /**
+     * Reads in the contents of the file, and writes all the words
+     * that are palindromes to a file named long_words.txt
+     */
+    public static void palindromeWriter(String readFileName) {
+
+        String line; // temporary storage for each line of the file as we read through it
+        List<String> palindromes = new ArrayList<>(); // list to store any palindromes as we find them
+
+        // Read each word from the input file, reverse it using the stack push method,
+        // and then compare it to the original word
+        try (BufferedReader reader = new BufferedReader(new FileReader(path + readFileName))) {
+            while ((line = reader.readLine()) != null) {
+                StringBuilder reversedLine = new StringBuilder();
+                LinkedList<Character> chars = new LinkedList<>();
+                for (int i = 0; i < line.length(); i++) {
+                    chars.push(line.charAt(i));
+                }
+                for (Character character : chars) {
+                    reversedLine.append(character);
+                }
+                if (line.equals(reversedLine.toString())) // must convert StringBuilder to a String to compare
+                    palindromes.add(line);
+            }
+        } catch (Exception e) {
+            System.out.println("Exception in palindrome reader");
+            e.printStackTrace();
+        }
+
+        // Write the list of palindromes to a file.
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(path + palindromeFileName))) {
+            writer.write("Here are all of the words from the input file that are palindromes:\n\n");
+            writer.write(String.join("\n", palindromes));
+
+            // let the user know that the file has been created or overwritten
+            System.out.println("Palindrome Writer complete!");
+        } catch (Exception e) {
+            System.out.println("Exception in palindrome writer");
             e.printStackTrace();
         }
 
