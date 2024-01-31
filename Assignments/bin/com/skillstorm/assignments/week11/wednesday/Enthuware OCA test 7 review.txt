@@ -1,0 +1,8 @@
+1. What types of questions were the hardest for you? Give the problem number for one of them. Which Test objective does it fall under?
+	- Questions 1 and 20--There were two lambda questions on this test and I got them both partially wrong. I just was not catching the incorrect usage of the semicolon in an expression with or without the brackets.
+
+2. What was a question you got right, but when you read the solution, you realized your reasoning was off? (Give the problem number and explanation.)
+	- Question 48--I didn't go with the answer I initially thought it would be since the question was marked as tough and I wasn't sure how the char would print at its default value...after reading the explanation, this was actually a pretty tricky question that I got a little lucky on.
+
+3. Find one resource for learning more about the topic you struggled on such as method overloading https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-javaLinks to an external site. and put the link here. It is recommended you also share the link with your classmates.
+	- Good review for lambdas: https://www.geeksforgeeks.org/lambda-expressions-java-8/#
