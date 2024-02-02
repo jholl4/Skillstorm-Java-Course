@@ -1,0 +1,8 @@
+1. What types of questions were the hardest for you? Give the problem number for one of them. Which Test objective does it fall under?
+	- I missed a few questions on methods and overloading. Questions 14, 25 and 43.
+
+2. What was a question you got right, but when you read the solution, you realized your reasoning was off? (Give the problem number and explanation.)
+	- Question 9. I got it correct but I had not thought about the fact that no wrapper classes have a no-args constructor, which seems like a good thing to know at least for the exam.
+
+3. Find one resource for learning more about the topic you struggled on such as method overloading https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-javaLinks to an external site. and put the link here. It is recommended you also share the link with your classmates.
+	- Here is a video on method overloading from one of my go-to java youtube channels: https://www.youtube.com/watch?v=kArGE1-vRrw&t=14s
