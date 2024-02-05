@@ -29,5 +29,5 @@
 
 # 10. Challenge: Retrieve the first name, last name, and phone number of customers whose last name
 # starts with "S".
-SELECT first_name, last_name, email FROM sakila.customer
-INNER JOIN sakila.address ON customer.address_id = address.address_id WHERE last_name LIKE "S%";
+-- SELECT customer.first_name, customer.last_name, address.phone FROM sakila.customer
+-- INNER JOIN sakila.address ON customer.address_id = address.address_id WHERE last_name LIKE "S%";
