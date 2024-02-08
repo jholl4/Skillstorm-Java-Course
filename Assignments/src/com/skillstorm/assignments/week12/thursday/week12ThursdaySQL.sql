@@ -41,10 +41,12 @@ INNER JOIN sakila.language l
 ON f.language_id = l.language_id;
 
 #2. Retrieve the staff member's first name and the store they work at.
-SELECT first_name, store.store_id
+SELECT first_name AS 'Employee', address.address AS 'Store'
 FROM sakila.staff
 LEFT JOIN sakila.store
-ON staff.store_id = store.store_id;
+ON staff.store_id = store.store_id
+INNER JOIN sakila.address
+ON store.address_id = address.address_id;
 
 #3. Retrieve the customer's first name and the rental date of the films they have rented.
 SELECT first_name, rental_date
